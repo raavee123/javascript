@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Multiplication using functions</title>
+</head>
+<body>
+    <button type="button" onclick="func()">Click Me!</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        var a = 83;
+        var b = 57;
+        function func(a,b){
+            if (a==undefined){
+                a = 24
+            }
+            if (b==undefined){
+                b = 79
+            }
+            document.getElementById("demo").innerHTML = "product of following two numbers are "+b * a;
+
+        }
+        document.getElementById("demo2").innerHTML = b;
+        document.getElementById("demo1").innerHTML = a;
+    </script>
+</body>
